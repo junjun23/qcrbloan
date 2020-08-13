@@ -14,7 +14,7 @@ const history = createBrowserHistory();
 const loginLink = (
   <Switch>
       <Route path="/login" component={Login} />
-      <Redirect from="/" to="/login" />
+      <Redirect from="/qcrbloan/" to="/login" />
   </Switch>
 );
 
