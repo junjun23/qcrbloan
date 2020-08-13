@@ -13,8 +13,8 @@ const history = createBrowserHistory();
 
 const loginLink = (
   <Switch>
-      <Route path="qcrbloan/login" component={Login} />
-      <Redirect from="/qcrbloan" to="qcrbloan/login" />
+      <Route path="/login" component={Login} />
+      <Redirect from="/qcrbloan" to="/login" />
   </Switch>
 );
 
@@ -35,7 +35,7 @@ const role2Link = (
 const role3Link = (
   <Switch>
       <Route path="/role3" component={Role3} />
-      <Redirect from="/" to="/role3/main" />
+      <Redirect from="/qcrbloan" to="/role3/main" />
   </Switch>
 );
 
