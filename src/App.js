@@ -21,21 +21,21 @@ const loginLink = (
 const role1Link = (
   <Switch>
       <Route path="/role1" component={Role1} />
-      <Redirect from="/qcrbloan" to="/role1/main" />
+      <Redirect from="/" to="/role1/main" />
   </Switch>
 );
 
 const role2Link = (
   <Switch>
       <Route path="/role2" component={Role2} />
-      <Redirect from="/qcrbloan" to="/role2/main" />
+      <Redirect from="/" to="/role2/main" />
   </Switch>
 );
 
 const role3Link = (
   <Switch>
       <Route path="/role3" component={Role3} />
-      <Redirect from="/qcrbloan" to="/role3/main" />
+      <Redirect from="/" to="/role3/main" />
   </Switch>
 );
 
